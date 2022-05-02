@@ -14,7 +14,7 @@ function Header() {
           objectPosition="left"
         />
       </div>
-      <div className="flex items-center p-1 md:border-2 rounded-full hover:shadow-sm">
+      <div className="flex items-center p-1 md:border-2 rounded-full md:hover:shadow-sm">
         <input type="text" placeholder="Start your search" className="text-zinc-800 placeholder-zinc-800 text-sm bg-translate focus:outline-none pl-5 flex-grow" />
         <SearchIcon className="bg-red-400 text-white h-8 p-2 rounded-full cursor-pointer hidden md:inline-flex ml-2" />
       </div>
